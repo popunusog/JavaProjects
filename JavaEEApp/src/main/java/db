@@ -1,0 +1,34 @@
+//database req
+        /*statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\bimber.jpg' WHERE ID = 1");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\dena.jpg' WHERE ID = 2");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\zubr.jpg' WHERE ID = 3");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\namys.jpg' WHERE ID = 4");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\cydr.jpg' WHERE ID = 5");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\winobab.jpg' WHERE ID = 6");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\zolodkowa.jpg' WHERE ID = 7");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\bombay.jpg' WHERE ID = 8");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\ciroc.jpg' WHERE ID = 9");
+        statement.executeUpdate("UPDATE ALKOHOLE2 SET IMAGE_PATH = 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\jacek.jpg' WHERE ID = 10");
+
+
+            *//*statement.executeUpdate("CREATE TABLE ALKOHOLE2 (ID INT PRIMARY KEY, NAZWA VARCHAR(100), POJEMNOSC INT, PROCENTY INT, CENA INT, IMAGE_PATH VARCHAR(200))");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (1, 'Bimber',1000,70,20, 'src/photos/bimber.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (2, 'Denaturat',500,96,6, 'src/photos/dena.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (3, 'Zubrowka',500,37,30, 'src/photos/zubr.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (4, 'Piwo Namyslow',500,5,4, 'C:\\Users\\kubal\\Desktop\\webapp1\\src\\photos\\namys.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (5, 'Cydr Lubelski',500,3,8, 'src/photos/cydr.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (6, 'Wino Babuni',458,14,25, 'src/photos/winobab.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (7, 'Zolodkowa gorzka',1000,36,50, 'src/photos/zolodkowa.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (8, 'Bombay',700,47,100, 'src/photos/bombay.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (9, 'Ciroc',700,37,150, 'src/photos/ciroc.jpg')");
+            statement.executeUpdate("INSERT INTO ALKOHOLE2 VALUES (10, 'Jacek i Daniel',1000,40,110, 'src/photos/jacek.jpg')");*//*
+        ResultSet resultSet2 = statement.executeQuery("SELECT * FROM ALKOHOLE2");
+
+
+        while (resultSet2.next()) {
+            for (int i = 1; i <= resultSet2.getMetaData().getColumnCount(); i++) {
+                System.out.print(resultSet2.getString(i) + " ");
+            }
+            System.out.println();
+        }
+        */
